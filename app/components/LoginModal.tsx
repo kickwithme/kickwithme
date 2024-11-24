@@ -81,5 +81,6 @@ export default function LoginModal({ isOpen, onClose, onLogin }: LoginModalProps
         </form>
       </DialogContent>
     </Dialog>
+  )
 }
 
