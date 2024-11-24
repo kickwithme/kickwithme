@@ -10,7 +10,7 @@ const sundayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 39, // 9:45 AM
@@ -21,7 +21,7 @@ const sundayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
 ];
 
@@ -34,7 +34,7 @@ const mondayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 74, // 6:15 PM
@@ -45,7 +45,7 @@ const mondayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 76, // 7:00 PM
@@ -56,7 +56,7 @@ const mondayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
 ];
 
@@ -69,7 +69,7 @@ const tuesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 69, // 5:15 PM
@@ -80,7 +80,7 @@ const tuesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 72, // 6:00 PM
@@ -91,7 +91,7 @@ const tuesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 75, // 6:45 PM
@@ -101,7 +101,7 @@ const tuesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 78, // 7:30 PM
@@ -112,7 +112,7 @@ const tuesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
 ];
 
@@ -125,7 +125,7 @@ const wednesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 70, // 5:30 PM
@@ -135,7 +135,7 @@ const wednesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 74, // 6:15 PM
@@ -146,7 +146,7 @@ const wednesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 76, // 7:00 PM
@@ -157,7 +157,7 @@ const wednesdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
 ];
 
@@ -170,7 +170,7 @@ const thursdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 69, // 5:15 PM
@@ -181,7 +181,7 @@ const thursdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 72, // 6:00 PM
@@ -192,7 +192,7 @@ const thursdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 75, // 6:45 PM
@@ -203,7 +203,7 @@ const thursdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
   {
     startTime: 78, // 7:30 PM
@@ -213,7 +213,7 @@ const thursdayClasses: Omit<ClassInfo, 'id'>[] = [
     lead: [],
     desk: [],
     assist: [],
-    availablePositions: { lead: 1, desk: 1, assist: 2 }
+    availablePositions: { lead: true, desk: true, assist: true }
   },
 ];
 
