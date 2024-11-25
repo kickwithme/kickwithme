@@ -353,35 +353,43 @@ export default function Calendar({ user, calendarData, setCalendarData, highligh
       </p>
       <div className="mt-2 space-y-1">
         {classInfo.availablePositions.lead && (
-          <p className="text-xs"><span className="font-semibold">Lead:</span> {(classInfo.lead || []).map(s => (
-            <span key={s.username} className
-="ml-1">
-              <Badge className={`${getRoleBadgeColor(s.role)} text-white text-[10px] mr-1`}>
-                {s.role}
-              </Badge>
-              {s.username}
-            </span>
-          ))}</p>
+          <div className="text-xs">
+            <span className="font-semibold">Lead:</span> 
+            {(classInfo.lead || []).map(s => (
+              <span key={s.username} className="ml-1">
+                <Badge className={`${getRoleBadgeColor(s.role)} text-white text-[10px] mr-1`}>
+                  {s.role}
+                </Badge>
+                {s.username}
+              </span>
+            ))}
+          </div>
         )}
         {classInfo.availablePositions.desk && (
-          <p className="text-xs"><span className="font-semibold">Desk:</span> {(classInfo.desk || []).map(s => (
-            <span key={s.username} className="ml-1">
-              <Badge className={`${getRoleBadgeColor(s.role)} text-white text-[10px] mr-1`}>
-                {s.role}
-              </Badge>
-              {s.username}
-            </span>
-          ))}</p>
+          <div className="text-xs">
+            <span className="font-semibold">Desk:</span> 
+            {(classInfo.desk || []).map(s => (
+              <span key={s.username} className="ml-1">
+                <Badge className={`${getRoleBadgeColor(s.role)} text-white text-[10px] mr-1`}>
+                  {s.role}
+                </Badge>
+                {s.username}
+              </span>
+            ))}
+          </div>
         )}
         {classInfo.availablePositions.assist && (
-          <p className="text-xs"><span className="font-semibold">Assist:</span> {(classInfo.assist || []).map(s => (
-            <span key={s.username} className="ml-1">
-              <Badge className={`${getRoleBadgeColor(s.role)} text-white text-[10px] mr-1`}>
-                {s.role}
-              </Badge>
-              {s.username}
-            </span>
-          ))}</p>
+          <div className="text-xs">
+            <span className="font-semibold">Assist:</span> 
+            {(classInfo.assist || []).map(s => (
+              <span key={s.username} className="ml-1">
+                <Badge className={`${getRoleBadgeColor(s.role)} text-white text-[10px] mr-1`}>
+                  {s.role}
+                </Badge>
+                {s.username}
+              </span>
+            ))}
+          </div>
         )}
       </div>
     </>
